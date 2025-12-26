@@ -88,7 +88,7 @@ nav ul li a:hover {
 .header {
   text-align: center;
   padding: 50px 20px;
-  background: linear-gradient(to bottom, #cecccc, hsl(0, 2%, 82%));
+  background: linear-gradient(to bottom, #a8a7a7, hsl(0, 3%, 70%));
 }
 
 .header h1 {
