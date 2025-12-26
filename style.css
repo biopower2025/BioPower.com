@@ -16,13 +16,13 @@ nav {
   margin: 10px 0;
   border: none;
   border-radius: 5px;
-  background-color: #dfe9e1;
-  color: #fff;
+  background-color: #e1ebe6;
+  color: #3a7e6d;
 }
 
 .order-form button {
-  background-color: #458f66;
-  color: #80cf80;
+  background-color: #4ea87b;
+  color: #4bb885;
   padding: 12px;
   font-weight: bold;
   border: none;
@@ -31,14 +31,14 @@ nav {
 }
 
 .order-form button:hover {
-  background-color: #345f42;
+  background-color: #459f85;
   border-radius: 10px;
   font-size: 74px;
   padding: 20px;
 }
 
 .footer {
-  background-color: #ede6e6;
+  background-color: #aeb2b0;
   text-align: center;
   padding: 20px 20px;
   color: #474444;
@@ -53,13 +53,13 @@ nav {
 .footer .social-links a {
   margin: 0 10px;
   text-decoration: none;
-  color: #5cc576;
+  color: #42917d;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: #444040;
+  color: #dbd6d6;
 }
 }
 
@@ -88,7 +88,7 @@ nav ul li a:hover {
 .header {
   text-align: center;
   padding: 50px 20px;
-  background: linear-gradient(to bottom, #a8a7a7, hsl(0, 3%, 70%));
+  background: linear-gradient(to bottom, #9c9a9a, hsl(0, 1%, 60%));
 }
 
 .header h1 {
@@ -100,7 +100,7 @@ nav ul li a:hover {
 .header p {
   font-size: 48px;
   margin: 15px 0;
-  color: #4e4f4e;
+  color: #262628;
  font-weight: bold; 
 
 }
@@ -118,39 +118,53 @@ nav ul li a:hover {
 .product {
   text-align: center;
   padding: 30px 10px;
+  font-weight: bold;
 }
 
 .product h2 {
-  color: #51bb83;
-  font-size: 32px;
+  color:white;
+  font-size: 22px;
+
 }
 
 .product img {
   width: 500px;
-  margin: 30px 0;
+  height: 500px;
+  margin: 50px 0;
   isplay: flex;
   justify-content: center;
   gap: 30px; /* espace horizontal entre les images */
   flex-wrap: wrap; /* pour que ça passe sur mobile */
-  padding: 10px;
-}
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+transition: transform 0.5s ease;
+transform: scale(1.05) translateY(-5px); /* Zoom léger + mouvement vers le haut */
 }
 
+}
+.product h2 {
+  color: rgb(255, 255, 255);
+  
+}
+
+
 .product .btn {
-  background-color: #48bd7b;
-  color: #40945b;
+  background-color: #ecf0ed;
+  color: white;
   padding: 12px 25px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .product .btn:hover {
-  background-color: #27522d;
+  background-color: white;
+  font-weight: bold;
 }
 
 .about {
-  background-color: #a8a4a4;
+  background-color: #fcfcfc;
   padding: 40px 20px;
   text-align: center;
 }
@@ -191,4 +205,12 @@ color: #202121;
 header .logo img {
     height: 122px;
     width: 210px;
+}
+.image-animée {
+  width: 300px;
+  transition: transform 0.5s ease;
+}
+
+.image-animée:hover {
+  transform: scale(1.05) translateY(-5px); /* Zoom léger + mouvement vers le haut */
 }
